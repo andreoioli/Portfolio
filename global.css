@@ -1,0 +1,227 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body{
+	width: 90%;
+	margin: 0 auto;
+	background-color: #b9b9b9;
+}
+
+header{
+	background-color: #DCDCDC;
+	display: grid;
+	grid-template-columns: 40% 60%;
+	height: 50px;
+}
+header h2{
+	margin: 0 auto;
+	margin: auto auto;
+}
+
+nav {
+	margin: auto auto;
+}
+
+li{
+	display: inline-block;
+	margin: 0 35px;
+	vertical-align: middle;
+	font-size: 20px;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.apresentacao{
+	background-color: #a13;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 796px;
+}
+.apresentacao article{
+	margin: 0 auto;
+}
+.apresentacao article h3{
+	font-size: 40px;
+	margin-top: 350px;
+}
+.apresentacao article h2{
+	font-size: 40px;
+}
+.apresentacao article img{
+	margin-top: 300px;
+
+}
+.sobre{
+	background-color: #123642;
+	height: 350px;
+}
+.sobre h2{
+	text-align: center;
+	font-size: 50px;
+	color: #DCDCDC;
+	padding-top: 10px;
+}
+.sobre p {
+	color: grey;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+.sobre h3{
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 25px;
+	color: #E0F954;
+}
+.grid{
+	display: grid;
+	margin: 0 auto;
+	width: 50%;
+	margin-right: 50%;
+	grid-template-columns: 50% 50%;
+}
+.grid article{
+	padding: 5px;
+	margin-left: 40px;
+	margin-top: 30px;
+	color: #dcdcdc;
+	border: 0.5px solid grey;
+	border-radius: 10px;
+}
+.formacao{
+	background-color: #712310;
+	height: 430px;
+}
+.formacao h2{
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 30px;
+}
+.grid-formacao{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.grid-formacao article{
+	margin-top: 60px;
+	margin-left: 30px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	height: 100px;
+	margin-right: 30px;
+}
+.grid-formacao article h2{
+	font-size: 27px;
+	color: #dcdcdc;
+}
+.grid-formacao article h3{
+	text-align: center;
+	color: yellow;
+	font-size: 
+}
+.ingles{
+	margin-top: 20px;
+	text-align: left;
+}
+
+.ingles h2{
+	text-align: left;
+	padding: 0px;
+	margin-left: 10%;
+	padding-bottom: 5px;
+}
+.ingles div p{
+	padding: 3px;
+	font-size: 25px;
+	text-align: left;
+	width: 100%;
+	color: grey;
+	margin-left: 5%;
+}
+
+
+
+.habilidades{
+	background-color: #395123;
+	height: 450px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.habilidades article{
+	margin: 25px;
+}
+.habilidades article h2{
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 25px;
+	margin-right: 25px;
+
+}
+.habilidades article img{
+	text-align: center;
+}
+.projetos{
+	background-color: #513251;
+	height: 220px;
+}
+.projetos h2{
+	padding-top: 10px;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+.projetos div{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 100px;
+	text-align: center;
+	margin-top: 20px;
+}
+.projetos div article{
+	padding-bottom: 30px;
+}
+.projetos div h3{
+	font-size: 22px;
+	color: orange
+}
+.projetos div article div{
+	background-color: white;
+	margin:0 auto;
+	width: 30%;
+	height: 100px;
+}
+form{
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 0 auto;
+}
+.contato{
+	background-color: grey;
+	height: 250px;
+
+}
+.contato h2{
+	text-align: center;
+	padding-top: 50px;
+}
+.contato input{
+	width: 250px;
+	margin: 0 auto;
+}
+.contato button{
+	width: 50px;
+	margin: 0 auto;
+}
+footer{
+	background-color: #434285;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
