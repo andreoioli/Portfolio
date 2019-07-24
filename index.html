@@ -2,22 +2,23 @@
 <html lang="PT-BR">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 		<title>André Oioli</title>
 		<link rel="stylesheet" type="text/css" href="global.css">
 	</head>
 	<body>
 		<header>
-			<h2>André Oioli</h2>
+			<h2><a href="#">André Oioli</a></h2>
 			<nav>
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Sobre</a></li>
-					<li><a href="#">Contate-me</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#contato">Contate-me</a></li>
 				</ul>
 			</nav>
 		</header>
 		<!-- Header -->
-		<section class="apresentacao">
+		<section class="apresentacao" id="apresentacao home">
 			<article>
 				<h3>Olá meu nome é André Oioli!</h3>
 				<h2>E eu sou um desenvolvedor web</h2>
@@ -29,7 +30,7 @@
 		</section>
 		<!-- Apresentação -->
 		
-		<section class="sobre">
+		<section class="sobre" id="sobre">
 			<h2>Sobre</h2>
 			 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -80,37 +81,37 @@
 		<!-- Habilidades -->
 		<section class="habilidades">
 			<article>
-				<img src="#"/>
+				<img src="img/js.png"/>
 				<h2>JS</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sequi, magni sint nesciunt nulla numquam distinctio illum debitis eligendi reprehenderit sapiente maiores optio nobis enim, incidunt corrupti sunt ad a!</p>
 			</article>
 
 			<article>
-				<img src="#"/>
+				<img src="img/html.png""/>
 				<h2>HTML5</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, iusto totam atque, maxime blanditiis quod consequatur explicabo. Accusantium laudantium dolores cupiditate omnis, esse eveniet tenetur quod. Pariatur ut itaque debitis!</p>
 			</article>
 
 			<article>
-				<img src="#"/>
+				<img src="img/css.png""/>
 				<h2>CSS3</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, eligendi laudantium neque ipsa incidunt pariatur, quia suscipit assumenda officia veniam omnis saepe possimus vitae odio dolorem, nostrum similique accusamus corrupti.</p>
 			</article>
 
 			<article>
-				<img src="#"/>
+				<img src="img/php.png""/>
 				<h2>PHP</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio facere quos voluptas, praesentium libero quod harum numquam, voluptate ipsum maxime amet vitae voluptates quam vero atque pariatur voluptatibus repellat minus!</p>
 			</article>
 
 			<article>
-				<img src="#"/>
+				<img src="img/banco.png""/>
 				<h2>Banco</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil molestiae quam architecto earum hic voluptatum reprehenderit maiores tempore quo aliquid, ipsam nam ut accusantium dolor, impedit labore. Dolores, nesciunt, nemo.</p>
 			</article>
 
 			<article>
-				<img src="#"/>
+				<img src="img/git.png""/>
 				<h2>Git</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus deserunt est aut, odit culpa consectetur, sed voluptatem cumque ex enim ipsam rerum aliquam expedita laudantium porro praesentium perspiciatis rem! Possimus!</p>	
 			</article>
@@ -139,7 +140,7 @@
 		</section>
 		
 		<!-- Contate-me -->
-		<section class="contato">
+		<section class="contato" id="contato">
 			<h2> Entre em contato </h2>
 			<form>
 				<input type="email" name="email_pessoa"><br>
